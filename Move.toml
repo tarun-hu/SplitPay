@@ -1,0 +1,16 @@
+[package]
+name = "EventLedger"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x91572c2b1ef531dcac2532180979cf3435a68fcc7a12aaa84826db22433f2665"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
